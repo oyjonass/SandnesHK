@@ -8,3 +8,4 @@ wwwroot/obj/
 wwwroot/App_Data/*.mdf
 wwwroot/App_Data/*.ldf
 wwwroot/App_Data/*.log
+wwwroot/node_modules/
