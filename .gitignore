@@ -1,4 +1,10 @@
-######################
-## EPiServer Files
-######################
-*License.config
+*.user
+*.suo
+.vs/
+
+packages/
+wwwroot/bin/
+wwwroot/obj/
+wwwroot/App_Data/*.mdf
+wwwroot/App_Data/*.ldf
+wwwroot/App_Data/*.log
