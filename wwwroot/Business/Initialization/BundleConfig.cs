@@ -19,15 +19,10 @@ namespace EpiserverSite2.Business.Initialization
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/js").Include(
-                        "~/Static/js/jquery.js", //jquery.js can be removed and linked from CDN instead, we use a local one for demo purposes without internet connectionzz
-                        "~/Static/js/bootstrap.js"));
-
+                        "~/node_modules/jquery/dist/jquery.js",
+                        "~/node_modules/bootstrap/dist/js/bootstrap.js"));
             bundles.Add(new StyleBundle("~/bundles/css")
-                .Include("~/Static/css/bootstrap.css", new CssRewriteUrlTransform())
-                .Include("~/Static/css/bootstrap-responsive.css")
-                .Include("~/Static/css/media.css")
-                .Include("~/Static/css/style.css", new CssRewriteUrlTransform())
-                .Include("~/Static/css/editmode.css"));
+                .Include("~/node_modules/bootstrap/dist/css/bootstrap.css", new CssRewriteUrlTransform()));
         }
 
         public void Uninitialize(InitializationEngine context)
