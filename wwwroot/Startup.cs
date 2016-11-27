@@ -6,8 +6,9 @@ using Microsoft.Owin.Security.Cookies;
 using Owin;
 using System;
 using System.Web;
+using wwwroot;
 
-[assembly: OwinStartup(typeof(wwwroot.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
 namespace wwwroot
 {
