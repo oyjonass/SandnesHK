@@ -1,6 +1,7 @@
 *.user
 *.suo
 .vs/
+*.pubxml
 
 packages/
 wwwroot/bin/
