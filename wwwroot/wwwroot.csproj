@@ -346,6 +346,7 @@
     <Folder Include="Static\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="License.config" />
     <None Include="Properties\PublishProfiles\sandneshk2 - Web Deploy.pubxml" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
